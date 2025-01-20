@@ -1,7 +1,7 @@
 //
 //    FILE: AD5660.cpp
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.1.1
+// VERSION: 0.1.2
 //    DATE: 2024-10-29
 // PURPOSE: Arduino library for AD5660 Digital Analog Convertor (16 bit).
 
