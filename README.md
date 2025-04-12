@@ -39,16 +39,16 @@ powers up to 0 V (AD5620/AD5640/AD5660-1-2) or midscale (AD5620-3 and AD5660-3)
 and remains there until a valid write takes place.
 
 
-### Compatibles 
+### Compatibles
 
-Overview of related devices, nr of bits, setValue range and indicative LSB
+Overview of related devices, number of bits, setValue range and indicative LSB
 
-|  device  |  bits  |  range      |  % stepsize  |   LSB @ 5V  |  notes  |
-|:--------:|:------:|:-----------:|:------------:|:-----------:|:-------:|
-|  AD5620  |   12   |  0..4095    |    0.025     |  1.221 mV   |  see AD5620 library
-|  AD5640  |   14   |  0..16383   |    0.0065    |  0.3053 mV  |  see AD5620 library
-|  AD5660  |   16   |  0..65535   |    0.0017    |  0.0763 mV  |
-|  AD5680  |   18   |  0..262143  |    0.0005    |  19.07 uV   |  see AD5680 library
+|  device  |  bits  |  range      |  % step size  |   LSB @ 5V  |  notes  |
+|:--------:|:------:|:-----------:|:-------------:|:-----------:|:-------:|
+|  AD5620  |   12   |  0..4095    |     0.025     |  1.221 mV   |  AD5620 library
+|  AD5640  |   14   |  0..16383   |     0.0065    |  0.3053 mV  |  AD5620 library
+|  AD5660  |   16   |  0..65535   |     0.0017    |  0.0763 mV  |  AD5660 library
+|  AD5680  |   18   |  0..262143  |     0.0005    |  19.07 uV   |  AD5680 library
 
 
 The AD5662 is compatible, however it does not support the Vref functions.
