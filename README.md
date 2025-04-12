@@ -146,17 +146,20 @@ produce different numbers.
 |:---------:|:-------:|:---------:|:-----:|:-------------:|:--------|
 |   0.1.0   |  UNO    |   16 MHz  |  HW   |   58800       |  max SPI speed
 |   0.1.0   |  UNO    |   16 MHz  |  SW   |    3300       |
-|   0.1.0   |  ESP32  |  240 MHz  |  HW   |               |  1
+|   0.1.0   |  ESP32  |  240 MHz  |  HW   |               |
 |   0.1.0   |  ESP32  |  240 MHz  |  SW   |               |
+|   0.2.0   |  UNO    |   16 MHz  |  HW   |   58600       |  max SPI speed
+|   0.2.0   |  UNO    |   16 MHz  |  SW   |    3220       |
+|   0.2.0   |  ESP32  |  240 MHz  |  HW   |  114100       |
+|   0.2.0   |  ESP32  |  240 MHz  |  SW   |   91500       |
 
 
-1. ESP32 HW is equal performant for HSPI and VSPI. 
-   Unknown why HW SPI is 20% slower than SW SPI (transaction overhead?)
 
 58800 calls per second means that a 1 KHz wave can be 
 constructed with 58 values per period (max).
 
 Please share your performance data, open an issue to report.
+
 
 ## Future
 
